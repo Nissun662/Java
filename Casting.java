@@ -10,7 +10,7 @@ public class Casting {
 
        /* Here I did the casting so it worked
        but since 128 is out of the range of byte
-       the result will be the modulus(remainder) of 256
+       the result will be the modulus(remainder) of 257
        by the byte range which is 256 */
        int a = 257;
        byte b = (byte) a;
